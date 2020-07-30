@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+    height: 3000px;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 73px;
+    background-color: #c1e6f8;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 380px;
+    height: 73px;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 73px;
+    padding: 0 10px;
+    line-height: 73px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.nav ul li a:hover {
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+
+.search {
+    float: left;
+    width: 220px;
+    height: 73px;
+    margin-left: 50px;
+}
+
+.search input {
+    float: left;
+    margin-top: 28px;
+    width: 150px;
+    height: 18px;
+    font-size: 14px;
+    color: #bfbfbf;
+    padding-left: 15px;
+    border: 1px solid #00a4ff;
+}
+
+.search button {
+    float: left;
+    margin-top: 28px;
+    width: 30px;
+    height: 20px;
+    /* 按钮默认有个边框需要我们手动去掉 */
+    border: 0;
+    background: url(images/fa.png);
+}
+
+.header .user img {
+    margin-top: 30px;
+    float: left;
+}
+
+.user {
+    float: left;
+    width: 160px;
+    height: 73px;
+    line-height: 73px;
+}
+
+
+/* .header .user p {
+    line-height: 73px;
+    float: left;
+    color: #666;
+} */
+
+.banner {
+    height: 420px;
+    background: url(images/xxx.jpg);
+}
+
+.subnav {
+    width: 190px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+
+.subnav ul li a {
+    font-size: 14px;
+    color: #fff
+}
+
+.subnav ul li a span {
+    float: right;
+}
+
+.subnav ul li a:hover {
+    color: rgb(5, 238, 160);
+}
+
+.goods {
+    margin-top: 10px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    /* 行高会继承给3个孩子 */
+    line-height: 60px;
+}
+
+.goods ul {
+    margin-left: 30px;
+    float: left;
+}
+
+.gengduo {
+    margin-right: 10px;
+    float: right;
+    color: #0058ae;
+}
+
+.gengduo:hover {
+    color: salmon;
+}
+
+.goods ul li {
+    margin-left: 30px;
+    float: left;
+}
+
+.goods ul li a {
+    color: #000;
+}
+
+.goods ul li a:hover {
+    color: salmon;
+}
+
+.box .th {
+    height: 34px;
+    line-height: 34px;
+    margin-top: 20px;
+}
+
+.box .th h1 {
+    float: left;
+    color: #0068c8;
+    font-size: 26px;
+}
+
+.box .th span {
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+    color: #c0bbbb;
+    font-size: 16px;
+}
+
+.box .th a {
+    float: right;
+    color: #0058ae;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.box .th a:hover {
+    color: salmon;
+}
+
+.box .hh {
+    margin-top: 20px;
+}
+
+.box .hh div {
+    width: 370px;
+    height: 413px;
+    background-color: #e2e2e2;
+}
+
+.box .hh div:hover {
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.box .hh .one {
+    float: left;
+}
+
+.box .hh .two {
+    float: left;
+    margin: 0 22px;
+}
+
+.box .hh .three {
+    float: left;
+    margin: 0 22px;
+}
+
+.box .hh img {
+    width: 100%;
+    height: 60%;
+}
+
+.box .hh div h3 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3b3b5d;
+    padding: 0 13px;
+    line-height: 25px;
+}
+
+.box .hh div p {
+    font-size: 13px;
+    color: #616161;
+    text-indent: 2em;
+    padding: 0 13px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.box .hh div span {
+    display: block;
+    width: 82px;
+    height: 31px;
+    background-color: #7acffb;
+    color: #fff;
+    font-size: 12px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 250px;
+}
